@@ -1,0 +1,375 @@
+[{
+  "_id": {
+    "$oid": "63160a34b970c6169180dc08"
+  },
+  "name": "Zip Half Placket Crop Slim Tee",
+  "description": "Product information Zip Half Placket Crop Slim Tee high quality Korean style comfortable to wear VNXK H3.\n\nMen's khaki shorts are designed according to the standard form of Vietnamese men.\n\nMen's khaki shorts are the latest design of VESCA.",
+  "rating": 4.7,
+  "category": "t-shirt",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1666065353/Home/andshop/ufmsvedwg4lavk86kqut.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1666065355/Home/andshop/ygaxukv7tu697wcdkibd.webp"
+  ],
+  "price": 56,
+  "sold": 2,
+  "view": 17,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662388788248"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667227670680"
+    }
+  },
+  "__v": 0,
+  "subject": false,
+  "deleted": false,
+  "originalPrice": 50
+},{
+  "_id": {
+    "$oid": "63160d69b970c6169180dc10"
+  },
+  "name": "Ribbed Knit Scoop Neck Crop Tee",
+  "description": "Product information Ribbed Knit Scoop Neck Crop Tee Korean high-quality comfortable wear VNXK H3.\n\nRibbed Knit Scoop Neck Crop Tee is designed according to the standard form of Vietnamese men.\n\nRibbed Knit Scoop Neck Crop Tee is VESCA's latest design.",
+  "rating": 4.5,
+  "category": "Long sleeve shirt",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1662389608/Home/andshop/wfl1dba7can6kz3gogdr.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1662389610/Home/andshop/zjknfjmi02a0ngawz53s.webp"
+  ],
+  "price": 44,
+  "sold": 10,
+  "view": 15,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662389609726"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667061848231"
+    }
+  },
+  "__v": 0,
+  "subject": false,
+  "deleted": false,
+  "originalPrice": 40
+},{
+  "_id": {
+    "$oid": "63161031b970c6169180dc18"
+  },
+  "name": "Letter Graphic Colorblock Raglan",
+  "description": "Product information Colorblock Raglan Sleeve Tee high quality Korean style comfortable to wear VNXK H3.\n\nMen's khaki shorts are designed according to the standard form of \nChina men.\n\nColorblock Raglan Sleeve Tee are the latest design of VESCA.",
+  "rating": 3.9,
+  "category": "Long sleeve shirt",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1662390320/Home/andshop/rtplbhwqcnofnoiikb4b.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1662390321/Home/andshop/xffsjlzvpghcbryie9ur.webp"
+  ],
+  "price": 55,
+  "sold": 12,
+  "view": 69,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662390321278"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1666969153130"
+    }
+  },
+  "__v": 0,
+  "subject": false,
+  "deleted": false,
+  "originalPrice": 50
+},{
+  "_id": {
+    "$oid": "63161255b970c6169180dc20"
+  },
+  "name": "Shein Argyle Pattern Drop Shoulder",
+  "description": "Product information SHEIN MOD Argyle Pattern Drop Shoulder Sweater high quality Korean style comfortable to wear VNXK H3.\n\nSHEIN MOD Argyle Pattern Drop Shoulder Sweater are designed according to the standard form of \nChina men.\n\nSHEIN MOD Argyle Pattern Drop Shoulder Sweater are the latest design of VESCA.",
+  "rating": 3.9,
+  "category": "Sweater",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1662390869/Home/andshop/vclogxzzbkv49xusmcyl.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1662390870/Home/andshop/dorr8kqwbrcpuvht4bgc.webp"
+  ],
+  "price": 66,
+  "sold": 6,
+  "view": 60,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662390869911"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667228524809"
+    }
+  },
+  "__v": 0,
+  "subject": false,
+  "originalPrice": 60
+},{
+  "_id": {
+    "$oid": "631613fab970c6169180dc28"
+  },
+  "name": "Cut Out Lace Up Back Butterfly Sleves",
+  "description": "Product information  Sleeve Split Thigh Dress high quality Korean style comfortable to wear VNXK H3.\n\n Sleeve Split Thigh Dress are designed according to the standard form of \nChina men.\n\n Sleeve Split Thigh Dress are the latest design of VESCA.",
+  "rating": 5,
+  "category": "Dress",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1666064524/Home/andshop/uwggjewwhbmswx9a9sgv.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1666064525/Home/andshop/z84noe3ywadfepazq1h8.webp"
+  ],
+  "price": 88,
+  "sold": 2,
+  "view": 22,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662391290773"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667228122596"
+    }
+  },
+  "__v": 0,
+  "subject": false,
+  "originalPrice": 80
+},{
+  "_id": {
+    "$oid": "63161918b970c6169180dc30"
+  },
+  "name": "Men Striped Contrast Collar Polo Shirt",
+  "description": "Product information Zip Half Placket Crop Slim Tee high quality Korean style comfortable to wear VNXK H3.\n\nMen's khaki shorts are designed according to the standard form of Vietnamese men.\n\nMen's khaki shorts are the latest design of VESCA.",
+  "rating": 4.5,
+  "category": "Long Sleeve Shirt",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1662392600/Home/andshop/tgicdrd1f9hpyjbl4kpp.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1662392600/Home/andshop/d8noho0jrlkflhxw10vc.webp"
+  ],
+  "price": 66,
+  "sold": 12,
+  "view": 32,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662392600289"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667274792916"
+    }
+  },
+  "__v": 0,
+  "subject": true,
+  "deleted": false,
+  "originalPrice": 60
+},{
+  "_id": {
+    "$oid": "631619ecb970c6169180dc38"
+  },
+  "name": "Sollinarry Embroidery Striped Trim Crop",
+  "description": "Sollinarry Letter Embroidery Striped high quality Korean style comfortable to wear VNXK H3.\n\nSollinarry Letter Embroidery Striped are designed according to the standard form of USA .\n\nMen's khaki shorts are the latest design of VESCA.",
+  "rating": 4.1,
+  "category": "Sweater",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1662392812/Home/andshop/filxhtai1apaeych5poi.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1662392812/Home/andshop/e3hreu3b97ggysbw6fxi.webp"
+  ],
+  "price": 60,
+  "sold": 9,
+  "view": 153,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662392812309"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667228486802"
+    }
+  },
+  "__v": 0,
+  "subject": false,
+  "originalPrice": 55
+},{
+  "_id": {
+    "$oid": "63161a61b970c6169180dc40"
+  },
+  "name": "SHEIN MOD Popcorn Knit Drop Shoulder ",
+  "description": "SHEIN MOD Popcorn Knit Drop Shoulder  high quality Korean style comfortable to wear VNXK H3.\nSHEIN MOD Popcorn Knit Drop Shoulder  are designed according to the standard form of USA .\nSHEIN MOD Popcorn Knit Drop Shoulder  are the latest design of VESCA.",
+  "rating": 3.7,
+  "category": "Sweater",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1662392928/Home/andshop/ppeemdgmweoo8brhjiev.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1662392929/Home/andshop/yjslixu3i1i5fwlnikd9.webp"
+  ],
+  "price": 40,
+  "sold": 3,
+  "view": 152,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662392929003"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667275059798"
+    }
+  },
+  "__v": 0,
+  "subject": false,
+  "deleted": false,
+  "originalPrice": 35
+},{
+  "_id": {
+    "$oid": "63172540d5501d37b7d9897f"
+  },
+  "name": "DAZY Two Tone Drop Shoulder Teddy",
+  "description": "DAZY Two Tone Drop Shoulder Teddy  high quality Korean style comfortable to wear VNXK H3.\nDAZY Two Tone Drop Shoulder Teddy  are designed according to the standard form of USA .\nDAZY Two Tone Drop Shoulder Teddy are the latest design of VESCA.",
+  "rating": 5,
+  "category": "Jacket",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1662461247/Home/andshop/ju9xmxoy7xankqdfwugn.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1662461248/Home/andshop/gjbvrocv0aoba4zylbkw.webp"
+  ],
+  "price": 56,
+  "sold": 1,
+  "view": 21,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662461248277"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1666338024085"
+    }
+  },
+  "__v": 0,
+  "subject": false,
+  "deleted": false,
+  "originalPrice": 50
+},{
+  "_id": {
+    "$oid": "635d655b6cbb4c1d05db783b"
+  },
+  "name": "Floral Print Drop Shoulder Sweatshirt",
+  "description": "Product information Zip Half Placket Crop Slim Tee high quality Korean style comfortable to wear VNXK H3.\n\nMen's khaki shorts are designed according to the standard form of Vietnamese men.\n\nMen's khaki shorts are the latest design of VESCA.",
+  "rating": 5,
+  "category": "Sweatshirt",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1667065175/Home/andshop/iuwrzczgb83yxg3kffb4.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1667065176/Home/andshop/oobj4nm8ccbrccg8qhw6.webp"
+  ],
+  "price": 112,
+  "originalPrice": 88,
+  "sold": 0,
+  "view": 6,
+  "subject": false,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667065179148"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667066716192"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d664abd811c14bbae6249"
+  },
+  "name": "Cloak Sleeve Duffle Teddy Coat",
+  "description": "Product information Zip Half Placket Crop Slim Tee high quality Korean style comfortable to wear VNXK H3.\n\nMen's khaki shorts are designed according to the standard form of Vietnamese men.\n\nMen's khaki shorts are the latest design of VESCA.",
+  "rating": 4.5,
+  "category": "Coat",
+  "images": [
+    "https://res.cloudinary.com/duong1310/image/upload/v1667065417/Home/andshop/mwyslpd4uygw390adned.webp",
+    "https://res.cloudinary.com/duong1310/image/upload/v1667065416/Home/andshop/ycyxhyhsudljtxfpnq5v.webp"
+  ],
+  "price": 112,
+  "originalPrice": 88,
+  "sold": 2,
+  "view": 7,
+  "subject": false,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667065418531"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667288760728"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d68b8bd811c14bbae62ad"
+  },
+  "name": "SHEIN Men Sleeve Double Breasted Coat",
+  "description": "Product information Zip Half Placket Crop Slim Tee high quality Korean style comfortable to wear VNXK H3.\n\nMen's khaki shorts are designed according to the standard form of Vietnamese men.\n\nMen's khaki shorts are the latest design of VESCA.",
+  "rating": 4.7,
+  "category": "Coat",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1667066038/Home/andshop/nrsotxh2zud8md8xdogp.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1667066039/Home/andshop/uxo7r36kqtjpjn5v78qq.webp"
+  ],
+  "price": 80,
+  "originalPrice": 70,
+  "sold": 0,
+  "view": 16,
+  "subject": true,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667066040565"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667121556482"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "635d6930bd811c14bbae62b3"
+  },
+  "name": "SHEIN Men Single Breasted Blazer",
+  "description": "Product information Zip Half Placket Crop Slim Tee high quality Korean style comfortable to wear VNXK H3.\n\nMen's khaki shorts are designed according to the standard form of Vietnamese men.\n\nMen's khaki shorts are the latest design of VESCA.",
+  "rating": 5,
+  "category": "Breasted Blaze",
+  "images": [
+    "http://res.cloudinary.com/duong1310/image/upload/v1667066158/Home/andshop/mkjurijog0falzufo8rd.webp",
+    "http://res.cloudinary.com/duong1310/image/upload/v1667066159/Home/andshop/gxgmvbz63vcudtmvzzd3.webp"
+  ],
+  "price": 80,
+  "originalPrice": 70,
+  "sold": 0,
+  "view": 5,
+  "subject": true,
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667066160030"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1668149295656"
+    }
+  },
+  "__v": 0
+}]

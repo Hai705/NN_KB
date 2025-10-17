@@ -1,0 +1,395 @@
+[{
+  "_id": {
+    "$oid": "630f78dc6812ccc7b066b2cc"
+  },
+  "username": "duong",
+  "email": "aelgbg@gmail.com",
+  "admin": false,
+  "password": "$2a$10$lJKq6A7ZFcu5fyWhZV94rOVsCEwA7FFt9i6OLWGM5yGtjPIm7KXQW",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661958364451"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667274688785"
+    }
+  },
+  "__v": 0,
+  "deleted": false,
+  "avatar": "http://res.cloudinary.com/duong1310/image/upload/v1666757264/Home/avatar/wp5shitgu6miwyccuiqh.jpg"
+},{
+  "_id": {
+    "$oid": "630f7da16812ccc7b066b2da"
+  },
+  "username": "duongxla",
+  "email": "ae1lgbg@gmail.com",
+  "admin": false,
+  "password": "$2a$10$irV0u4hgNHha39qqVtqdROIYYrbUYuqEM9OLJJW/mEt5SahSyC4Hq",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661959585237"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667274946533"
+    }
+  },
+  "__v": 0,
+  "deleted": false,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "630f7f406812ccc7b066b2dd"
+  },
+  "username": "duong001",
+  "email": "ae2lgbg@gmail.com",
+  "admin": false,
+  "password": "$2a$10$oM8gM92CHztYaUfH8LjxAOfm9zUb4/wxrJVUAf2AGmLye4J1hJ.Me",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661960000881"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665988072426"
+    }
+  },
+  "__v": 0,
+  "deleted": false,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "631079d035df2a2b44fe03c6"
+  },
+  "username": "duongdong",
+  "email": "ae10lgbg@gmail.com",
+  "admin": false,
+  "password": "$2a$10$qGlx4rosMqXILwv6KZ.8b.6PcjgExK84u7jn4mUYKicMP25wChkgC",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662024145040"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667118978146"
+    }
+  },
+  "__v": 0,
+  "deleted": false,
+  "avatar": "http://res.cloudinary.com/duong1310/image/upload/v1667118978/Home/avatar/rut5geoblvduqsfnoode.jpg"
+},{
+  "_id": {
+    "$oid": "6310d0aba7a6e8b83c3b8f7e"
+  },
+  "username": "admin",
+  "email": "admin1310@gmail.com",
+  "admin": true,
+  "password": "$2a$10$twh6/gxNF1xppe1jOd3c9ucN.67e3ac7cZiiu0LY9L5EtWMLfJ9wC",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1662046379277"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1666660383337"
+    }
+  },
+  "__v": 0,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "633010fb21deacf2693fea1f"
+  },
+  "username": "duonghello",
+  "email": "duong1310@gmail.com",
+  "admin": false,
+  "password": "$2a$10$O4.XTF1PsqOoZC7LDfR9ge5ZKdG1PnL9BbvOxo810DIKx7ZV9lAUO",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664094459716"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664094459716"
+    }
+  },
+  "__v": 0,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "633011de21deacf2693fea5e"
+  },
+  "username": "vanduong",
+  "email": "aeaalgbg@gmail.com",
+  "admin": false,
+  "password": "$2a$10$aWv1P4PREL55BVq8RAaMHelavD5UHKcx1xXC9Td/KZ9b3zAFDqWAi",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664094686865"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664094686865"
+    }
+  },
+  "__v": 0,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "6330126a21deacf2693fea7f"
+  },
+  "username": "dong",
+  "email": "duong999@gmail.com",
+  "admin": false,
+  "password": "$2a$10$brf95VC/Uaov5CHjgFhx6.UCb59ZJzB6NCLpchHNzpYRrTlDO0QRG",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664094826486"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664094826486"
+    }
+  },
+  "__v": 0,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "6330143a21deacf2693fea82"
+  },
+  "username": "van",
+  "email": "ho999@gmail.com",
+  "admin": false,
+  "password": "$2a$10$shx1l0nOBjZFM8zlQMJx1eW7VwJNUUv4/lXshcNuaH.fsBNWqBajO",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664095290389"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667228154895"
+    }
+  },
+  "__v": 0,
+  "deleted": true,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "6330185221deacf2693fea85"
+  },
+  "username": "dongvan",
+  "email": "aelgbg888@gmail.com",
+  "admin": false,
+  "password": "$2a$10$xuz927yJb9dq3M6QSaJOOeMLVbTSpxgJUWsLUUdbXZy61Ruqbw18m",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664096338903"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667288266617"
+    }
+  },
+  "__v": 0,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg",
+  "deleted": true
+},{
+  "_id": {
+    "$oid": "633018e421deacf2693fea8c"
+  },
+  "username": "dongduong",
+  "email": "au999@gmail.com",
+  "admin": false,
+  "password": "$2a$10$mNTD.3e1zfjULBlyi7WvTeePfp46/38FM0oz6yXV1VRI9HocdG3ES",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664096484576"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667007279033"
+    }
+  },
+  "__v": 0,
+  "deleted": false,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "6330198821deacf2693fea8f"
+  },
+  "username": "duonghello",
+  "email": "duong@gmail.com",
+  "admin": false,
+  "password": "$2a$10$6mObkxasdByGXCCMZq18vOqmfCGg7/iXkDhde9y4/e2mbkOaqjnGS",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664096648269"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1665563047146"
+    }
+  },
+  "__v": 0,
+  "deleted": false,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "63301a9121deacf2693feab2"
+  },
+  "username": "duonghello",
+  "email": "duong19120@gmail.com",
+  "admin": false,
+  "password": "$2a$10$Il6mfaEZ7/mJTr.CmZsodO.6J6ECdO1OJuE380BD5YUX2uLZW8uBu",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1664096913007"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1664096913007"
+    }
+  },
+  "__v": 0,
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg"
+},{
+  "_id": {
+    "$oid": "635507a521e1cdea2cb25674"
+  },
+  "username": "duong1310x",
+  "email": "ae1310@gmail.com",
+  "admin": false,
+  "password": "$2a$10$d5TuGJwiX8hU3eGoT4G.Ter1uEFta.TYU.osjNfsHYGA6QGTpTw62",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666516901636"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1666757533325"
+    }
+  },
+  "__v": 0,
+  "avatar": "http://res.cloudinary.com/duong1310/image/upload/v1666757533/Home/avatar/jj5nwb2swhktsksbynzb.jpg"
+},{
+  "_id": {
+    "$oid": "63573b56a81bd7464419eaa7"
+  },
+  "username": "duong1310",
+  "email": "duong1310a@gmail.com",
+  "admin": false,
+  "password": "$2a$10$oZqG74RgLb4uHlhn97DYlu8Uvy28GZ2tTJ2tl0cvt9qUTUepW31mq",
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666661206746"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1666661206746"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63573cab3d29cc6175f4f27a"
+  },
+  "username": "duong1310a",
+  "email": "helloewro@gmail.com",
+  "admin": false,
+  "password": "$2a$10$GTktME.slyhmhNARxSTafuem5.u6rLxeNMdyZGPM0kgApmUjoWeVe",
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1666661547906"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1666883152962"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63608aac9cb51d28014fb63f"
+  },
+  "username": "duongbg001",
+  "email": "ae100lgbg@gmail.com",
+  "admin": false,
+  "password": "$2a$10$norzMhaHoA8A.jWzSoOiUu1at3nUhqkk8A.QYFEvq5xkawLnzGaga",
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667271340212"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667271340212"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6360971d9cb51d28014fb9d8"
+  },
+  "username": "duong2001",
+  "email": "ae1000lgbg@gmail.com",
+  "admin": false,
+  "password": "$2a$10$YNa8Qg/HUum05k.gpE6P2Ovw9iu72SrncPx3tyT97GeXbn.4Fad7e",
+  "avatar": "http://res.cloudinary.com/duong1310/image/upload/v1667274584/Home/avatar/luzgv7ghp8b78ajomcau.jpg",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1667274525686"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1667274615922"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63aaa72f35544e04207f35dd"
+  },
+  "username": "adminabc",
+  "email": "admin131a0@gmail.com",
+  "admin": true,
+  "password": "$2a$10$6Q7BuXbJXgW.IvAezft7SOtAcg4JpBfPAXL8BiIeE/uLZTjz9T2Vi",
+  "avatar": "https://res.cloudinary.com/duong1310/image/upload/v1666660558/Home/avatar/default_enq4bq.jpg",
+  "deleted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1672128303754"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1672128303754"
+    }
+  },
+  "__v": 0
+}]
