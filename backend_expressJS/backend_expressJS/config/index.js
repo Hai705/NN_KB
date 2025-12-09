@@ -1,16 +1,19 @@
-const mongoose =require('mongoose');
+const mongoose = require('mongoose');
 
-async function connect(){
+async function connect() {
     try {
-        await mongoose.connect('mongodb://localhost:27017/AndShop');
-        console.log('success');
-    }
-    catch(error){
-        console.log('failed');
+        // SỬA DÒNG NÀY:
+        // Nếu có biến MONGO_URI thì dùng (trên Render), không thì dùng localhost (dưới máy)
+        const dbUrl = process.env.MONGO_URI || 'mongodb://localhost:27017/AndShop';
+        
+        await mongoose.connect(dbUrl);
+        console.log('Connect Database success!');
+    } catch (error) {
+        console.log('Connect Database failed:', error);
     }
 };
 
-module.exports={
+module.exports = {
     connect,
-    JWT_SECRET:process.env.JWT_SECRET,
+    JWT_SECRET: process.env.JWT_SECRET,
 };
