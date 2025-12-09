@@ -80,7 +80,7 @@ export default {
             }
           }
         }],
-        message: [{ required: true, message: 'Please input activity form', trigger: 'blur' }],
+        message: [{ required: true, message: 'Mời nhập thông tin', trigger: 'blur' }],
         phoneNumber: [{
           required: true,
           trigger: 'blur',

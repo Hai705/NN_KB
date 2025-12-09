@@ -2,7 +2,7 @@
   <div class="flex flex-cols w-full">
     <div class="tab_order-admin w-full">
       <a-tabs default-active-key="2a" class="max-w-[50%]" @change="callback">
-        <a-tab-pane key="1" tab="Wait For Confirmation">
+        <a-tab-pane key="1" tab="Chờ xác nhận">
           <div v-if="waitForComfirm.totalItem<1" class="flex justify-center">
             <p class="text-black font-medium sm:text-xl mx-0 my-10">
               There are no bills waiting
@@ -13,7 +13,7 @@
             :comfirm="true"
           />
         </a-tab-pane>
-        <a-tab-pane key="2" tab="Successful Delivery">
+        <a-tab-pane key="2" tab="Giao hàng thành công">
           <div v-if="itemSuccessful.totalItem<1" class="flex justify-center">
             <p class="text-black font-medium sm:text-xl mx-0 my-10">
               You have not had any successful orders yet
@@ -26,7 +26,7 @@
             <a-pagination v-model="currentSuccess" :total="itemSuccessful.pages*8" show-less-items :page-size="8" @change="onChangeSuccess" />
           </div>
         </a-tab-pane>
-        <a-tab-pane key="3" tab="Order Canceled">
+        <a-tab-pane key="3" tab="Đơn hàng đã hủy">
           <div v-if="itemCanceled.totalItem<1" class="flex justify-center">
             <p class="text-black font-medium sm:text-xl mx-0 my-10">
               No orders have been canceled
@@ -50,17 +50,17 @@
       <ul class="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row">
         <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
           <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " :class="{'text-[#db2777] hover:text-[#db2777] bg-white': openTab !== 1, 'text-white hover:text-white bg-[#db2777]': openTab === 1}" @click="toggleTabs(1)">
-            Wait For Confirmation
+            Chờ xác nhận
           </a>
         </li>
         <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
           <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" :class="{'text-[#db2777]  hover:text-[#db2777] bg-white': openTab !== 2, 'text-white  hover:text-white bg-[#db2777]': openTab === 2}" @click="toggleTabs(2)">
-            Successful Delivery
+            Giao hàng thành công
           </a>
         </li>
         <li class="-mb-px mr-2 last:mr-0 flex-auto text-center">
           <a class="text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal" :class="{'text-[#db2777] hover:text-[#db2777] bg-white': openTab !== 3, 'text-white hover:text-white bg-[#db2777]': openTab === 3}" @click="toggleTabs(3)">
-            Order Canceled
+            Đơn hàng đã hủy
           </a>
         </li>
       </ul>

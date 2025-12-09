@@ -336,7 +336,7 @@
               focus:outline-none
             "
           >
-            VIEW ALL
+            Xem tất cả
           </a>
         </div>
         <div v-for="(item,index) in topUser" :key="index" class="flex items-center mb-6 rounded justify-between">

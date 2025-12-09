@@ -89,7 +89,7 @@
                   <a href="#" class="text-black font-medium"><i class="fa-solid fa-user pl-1 pr-2" />{{ username }}</a>
                 </a-menu-item>
                 <a-menu-item key="1">
-                  <a href="/" class="text-black font-medium"><i class="fa-solid fa-house-user  pl-1 pr-2" />Return Home</a>
+                  <a href="/" class="text-black font-medium"><i class="fa-solid fa-house-user  pl-1 pr-2" />Trở lại trang chủ</a>
                 </a-menu-item>
                 <a-menu-divider />
                 <a-menu-item key="3" @click="logOut">

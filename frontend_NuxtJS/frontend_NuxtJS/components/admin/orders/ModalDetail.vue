@@ -19,7 +19,7 @@
         <template slot="footer">
           <div class="flex flex-col">
             <div>
-              <a-form-model-item label="Delivery address">
+              <a-form-model-item label="Địa chỉ giao hàng">
                 <a-input
                   v-model="address"
                   disabled
@@ -47,7 +47,7 @@
                 Accept orders
               </button>
               <button v-if="itemOrder.status===false &&itemOrder.cancel===false" class="w-1/4 text-white font-medium text-[1rem] bg-red rounded-lg sm:py-2  py-1 px-1 hover:opacity-80" @click="canceled(itemOrder._id)">
-                Cancel order
+                Hủy đơn hàng
               </button>
             </div>
           </div>

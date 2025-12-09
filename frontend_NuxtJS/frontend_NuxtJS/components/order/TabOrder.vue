@@ -4,13 +4,14 @@
       <div class="spin-content">
         <div class="tab_order">
           <a-tabs default-active-key="1" @change="callback">
-            <a-tab-pane key="1" tab="All Transactions">
-              <div v-if="allTransaction.totalItem<1" class="flex justify-center">
+            <!-- TAB 1: TẤT CẢ GIAO DỊCH -->
+            <a-tab-pane key="1" tab="Tất cả giao dịch">
+              <div v-if="allTransaction.totalItem < 1" class="flex justify-center">
                 <p class="text-black font-medium sm:text-xl mx-0 my-10">
                   You have no transactions yet
                 </p>
               </div>
-              <div v-for="(item,index) in allTransaction.listOrder" :key="index" class="mb-4">
+              <div v-for="(item, index) in allTransaction.listOrder" :key="index" class="mb-4">
                 <ItemOrder
                   :item-order="item"
                   :status="item.status"
@@ -18,17 +19,19 @@
                 />
                 <hr class="text-[#e8e8e8]">
               </div>
-              <div v-if="allTransaction.totalItem>=1" class="flex justify-center my-2">
-                <a-pagination v-model="current" :total="allTransaction.pages*8" show-less-items :page-size="8" @change="onChangeAll" />
+              <div v-if="allTransaction.totalItem >= 1" class="flex justify-center my-2">
+                <a-pagination v-model="current" :total="allTransaction.pages * 8" show-less-items :page-size="8" @change="onChangeAll" />
               </div>
             </a-tab-pane>
-            <a-tab-pane key="2" tab="Wait For Confirmation" force-render>
-              <div v-if="waitForComfirm.totalItem<1" class="flex justify-center">
+
+            <!-- TAB 2: CHỜ XÁC NHẬN -->
+            <a-tab-pane key="2" tab="Chờ xác nhận" force-render>
+              <div v-if="waitForComfirm.totalItem < 1" class="flex justify-center">
                 <p class="text-black font-medium sm:text-xl mx-0 my-10">
                   There are no bills waiting
                 </p>
               </div>
-              <div v-for="(item,index) in waitForComfirm.listOrder" :key="index" class="mb-4">
+              <div v-for="(item, index) in waitForComfirm.listOrder" :key="index" class="mb-4">
                 <ItemOrder
                   :item-order="item"
                   :status="item.status"
@@ -36,17 +39,19 @@
                 />
                 <hr class="text-[#e8e8e8]">
               </div>
-              <div v-if="waitForComfirm.totalItem >=1" class="flex justify-center my-2">
-                <a-pagination v-model="currentComfirm" :total="waitForComfirm.pages*8" show-less-items :page-size="8" @change="onChangeComfirm" />
+              <div v-if="waitForComfirm.totalItem >= 1" class="flex justify-center my-2">
+                <a-pagination v-model="currentComfirm" :total="waitForComfirm.pages * 8" show-less-items :page-size="8" @change="onChangeComfirm" />
               </div>
             </a-tab-pane>
-            <a-tab-pane key="3" tab="Successful Delivery">
-              <div v-if="itemSuccessful.totalItem<1" class="flex justify-center">
+
+            <!-- TAB 3: GIAO HÀNG THÀNH CÔNG -->
+            <a-tab-pane key="3" tab="Giao hàng thành công">
+              <div v-if="itemSuccessful.totalItem < 1" class="flex justify-center">
                 <p class="text-black font-medium sm:text-xl mx-0 my-10">
                   You have not had any successful orders yet
                 </p>
               </div>
-              <div v-for="(item,index) in itemSuccessful.listOrder" :key="index" class="mb-4">
+              <div v-for="(item, index) in itemSuccessful.listOrder" :key="index" class="mb-4">
                 <ItemOrder
                   :item-order="item"
                   :status="item.status"
@@ -54,17 +59,19 @@
                 />
                 <hr class="text-[#e8e8e8]">
               </div>
-              <div v-if="itemSuccessful.totalItem>=1" class="flex justify-center my-2">
-                <a-pagination v-model="currentSuccess" :total="itemSuccessful.pages*8" show-less-items :page-size="8" @change="onChangeSuccess" />
+              <div v-if="itemSuccessful.totalItem >= 1" class="flex justify-center my-2">
+                <a-pagination v-model="currentSuccess" :total="itemSuccessful.pages * 8" show-less-items :page-size="8" @change="onChangeSuccess" />
               </div>
             </a-tab-pane>
-            <a-tab-pane key="4" tab="Order Has Been Canceled">
-              <div v-if="itemCanceled.totalItem<1" class="flex justify-center">
+
+            <!-- TAB 4: ĐƠN HÀNG ĐÃ HỦY -->
+            <a-tab-pane key="4" tab="Đơn hàng đã bị hủy">
+              <div v-if="itemCanceled.totalItem < 1" class="flex justify-center">
                 <p class="text-black font-medium sm:text-xl mx-0 my-10">
                   No orders have been canceled
                 </p>
               </div>
-              <div v-for="(item,index) in itemCanceled.listOrder" :key="index" class="mb-4">
+              <div v-for="(item, index) in itemCanceled.listOrder" :key="index" class="mb-4">
                 <ItemOrder
                   :item-order="item"
                   :status="item.status"
@@ -72,8 +79,8 @@
                 />
                 <hr class="text-[#e8e8e8]">
               </div>
-              <div v-if="itemCanceled.totalItem >=1" class="flex justify-center my-2">
-                <a-pagination v-model="currentCancel" :total="itemCanceled.pages*8" show-less-items :page-size="8" @change="onChangeCancel" />
+              <div v-if="itemCanceled.totalItem >= 1" class="flex justify-center my-2">
+                <a-pagination v-model="currentCancel" :total="itemCanceled.pages * 8" show-less-items :page-size="8" @change="onChangeCancel" />
               </div>
             </a-tab-pane>
           </a-tabs>
@@ -82,6 +89,7 @@
     </a-spin>
   </div>
 </template>
+
 <script>
 import ItemOrder from '@/components/order/ItemOrder.vue'
 export default {
@@ -111,16 +119,22 @@ export default {
     callback (key) {
       console.log(key)
     },
+    // --- ĐÃ SỬA HÀM NÀY ---
     async getAllTransaction (limit, page) {
       try {
         this.spinning = true
         const token = localStorage.getItem('token')
         const userData = await this.$api.auth.secret(token)
-        const dataOrder = await this.$api.order.getOrder({ user: userData.data._id, cancel: 0, limit, page })
+
+        // Đã xóa tham số { cancel: 0 } để lấy toàn bộ lịch sử đơn hàng
+        const dataOrder = await this.$api.order.getOrder({
+          user: userData.data._id,
+          limit,
+          page
+        })
+
         this.allTransaction = dataOrder.listOrder
         this.spinning = false
-
-        // console.log('allTran: ', this.allTransaction)
       } catch (error) {
         this.spinning = false
         console.log(error)
@@ -132,7 +146,6 @@ export default {
         const userData = await this.$api.auth.secret(token)
         const dataOrder = await this.$api.order.getOrder({ user: userData.data._id, cancel: 0, status: 0, limit, page })
         this.waitForComfirm = dataOrder.listOrder
-        // console.log('waitForComfirm: ', this.waitForComfirm)
       } catch (error) {
         console.log(error)
       }
@@ -143,7 +156,6 @@ export default {
         const userData = await this.$api.auth.secret(token)
         const dataOrder = await this.$api.order.getOrder({ user: userData.data._id, cancel: 0, status: 1, limit, page })
         this.itemSuccessful = dataOrder.listOrder
-        // console.log('itemSuccessful: ', this.itemSuccessful)
       } catch (error) {
         console.log(error)
       }
@@ -179,35 +191,33 @@ export default {
 </script>
 
 <style lang="scss">
-.tab_order{
-
-    .ant-tabs-nav-wrap{
-        @apply mt-3;
-    }
-    .ant-tabs-bar{
-        @apply border-0
-    }
-    .ant-tabs-nav-scroll{
-        @apply w-full flex justify-center;
-
-    }
-    .ant-tabs-nav .ant-tabs-tab-active{
-        @apply text-orange;
-    }
-    .ant-tabs-tab{
-        @apply font-semibold text-black text-[1rem] leading-6;
-    }
-    .ant-tabs-tab:hover {
-        @apply text-orange
-    }
-    .ant-tabs-tab-active{
-        @apply text-orange
-    }
-    .ant-tabs-ink-bar{
-        @apply bg-orange
-    }
-    .ant-tabs-nav .ant-tabs-tab:hover{
-        @apply text-orange
-    }
+.tab_order {
+  .ant-tabs-nav-wrap {
+    @apply mt-3;
+  }
+  .ant-tabs-bar {
+    @apply border-0;
+  }
+  .ant-tabs-nav-scroll {
+    @apply w-full flex justify-center;
+  }
+  .ant-tabs-nav .ant-tabs-tab-active {
+    @apply text-orange;
+  }
+  .ant-tabs-tab {
+    @apply font-semibold text-black text-[1rem] leading-6;
+  }
+  .ant-tabs-tab:hover {
+    @apply text-orange;
+  }
+  .ant-tabs-tab-active {
+    @apply text-orange;
+  }
+  .ant-tabs-ink-bar {
+    @apply bg-orange;
+  }
+  .ant-tabs-nav .ant-tabs-tab:hover {
+    @apply text-orange;
+  }
 }
 </style>
