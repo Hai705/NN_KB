@@ -1,13 +1,18 @@
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
+
   // router: {
   //   middleware: 'auth'
   // },
+
+  // [QUAN TRỌNG] Tắt cấu hình port cứng khi deploy lên Vercel.
+  // Vercel sẽ tự động cấp port. Nếu chạy local bạn có thể bỏ comment.
+  // server: {
+  //   port: 8080
+  // },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
-  server: {
-    port: 8080
-  },
   head: {
     title: 'AndShop',
     htmlAttrs: {
@@ -75,17 +80,20 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/cloudinary'
   ],
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
+
+  // [QUAN TRỌNG] Cấu hình kết nối Backend
   axios: {
-    // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: process.env.API_HOST
+    // Ưu tiên lấy biến môi trường API_HOST, nếu không có thì lấy link Render cứng
+    baseURL: process.env.API_HOST || 'https://nn-kb-onrender-com.onrender.com'
   },
+
   cloudinary: {
     cloudName: process.env.CLOUDNAME,
     apiKey: process.env.API_KEY,
     apiSecret: process.env.API_SECRET,
     useComponent: true
   },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     postcss: {
@@ -103,10 +111,11 @@ export default {
       }
     }
   },
+
+  // [QUAN TRỌNG] Biến môi trường
   env: {
-    BASE_URL: process.env.BASE_URL || 'http://localhost:3000',
-    API_HOST: process.env.API_HOST || 'http://localhost:3000'
-    // BASE_URL: 'http://localhost:3000',
-    // API_HOST: 'http://localhost:3000'
+    // Cập nhật link Backend Render vào đây để đảm bảo mọi chỗ gọi process.env.API_HOST đều đúng
+    BASE_URL: process.env.BASE_URL || 'https://nn-kb-onrender-com.onrender.com',
+    API_HOST: process.env.API_HOST || 'https://nn-kb-onrender-com.onrender.com'
   }
 }
