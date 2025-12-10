@@ -18,7 +18,7 @@ exports.createMomoPayment = async (req, res) => {
         
         // QUAN TRỌNG: Sửa thành port 8080 (Frontend Nuxt.js)
         // Khi thanh toán xong, khách hàng sẽ được đưa về trang quản lý đơn hàng
-        const redirectUrl = "http://localhost:8080/order"; 
+        const redirectUrl = "https://nn-kb-veo2.vercel.app/order"; 
         
         // ipnUrl: Link để MoMo gọi ngầm báo kết quả cho Server 
         const ipnUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b";
